@@ -1,0 +1,45 @@
+#header {
+    height: 50px;
+    background-color: #10284e;
+    color: #ffff
+}
+
+#branding h1 {
+    color: #ffff
+}
+
+a:link,
+a:visited {
+    color: #102810;
+}
+
+div.breadcrumbs {
+    background: #30caa0;
+    color: #102810
+}
+
+div.breadcrumbs a {
+    color: #333;
+}
+
+.module h2,
+.module caption,
+inline-group h2 z {
+    background: #30caa0;
+}
+
+
+.button.default,
+input[type=submit].default,
+.submit-row input.default {
+    background: #10284e;
+}
+
+.button,
+input[type=submit],
+input[type=button],
+.submit-row input,
+a.button {
+    background: #10284e;
+    color: #ffff;
+}

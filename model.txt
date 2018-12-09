@@ -1,0 +1,51 @@
+Listing
+id: Int
+realtor INT (forign key [Realtors table])
+title : String
+address: String
+city: String
+state: String
+zipcode: String
+description: TEXT
+price: Int
+bedrooms: Int
+bathroom: INT
+garage: INT[0]
+sqft: INT
+lot_size: FLOAT
+is_published: BOOL [true]
+list_date: DATE
+
+photo_main: String
+photo_1: String
+photo_2: String
+photo_3: String
+photo_4: String
+photo_5: String
+photo_6: String
+
+
+
+
+Realtors
+id: INT
+name: String
+photo: String
+description: TEXT
+email: String,
+phone: String
+is_mvp: BOOL [0]
+hire_date: DATE
+
+
+
+contact
+id: INT
+used_id: INT 
+Listing: INT
+Listing_id: INT
+name: String[person sending the inquires]
+email: String
+phone: String
+message: TEXT
+contact_date: DATE
