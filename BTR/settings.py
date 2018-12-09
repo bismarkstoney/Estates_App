@@ -147,6 +147,6 @@ MESSAGE_TAGS = {
 # Email
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = "obengstoney@gmail.com"
-EMAIL_HOST_PASSWORD = 'Winsrv2008'
+EMAIL_HOST_USER = ""
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
